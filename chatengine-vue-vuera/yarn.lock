@@ -5227,6 +5227,11 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
+lodash@4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.3:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
@@ -6777,14 +6782,14 @@ rc-util@^5.0.1:
     react-is "^16.12.0"
     shallowequal "^1.1.0"
 
-react-chat-engine@^1.5.11:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/react-chat-engine/-/react-chat-engine-1.6.1.tgz#72b21c519205dc875e46ff6175f8c43f0f3bb3fe"
-  integrity sha512-Oi9W68w2z1Zk3Vut2vLO/+wbhZ3e39AqzGZXkHTtBX/+EBcbEytzjIo15S/UaBp6zPGQ7NZ3kidS/bX1PKxLiw==
+react-chat-engine@^1.6.3:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/react-chat-engine/-/react-chat-engine-1.7.1.tgz#573c22c8ab1e5d78be7d34cf2b8eba01cd1236dc"
+  integrity sha512-0evM+HH1XOmfrD7JKvDn0p9q56FsZJRz/P9nBsCho2c/StUdvd/Xid6MWdVvKvQoFeKeOIUOF+H3ZTb/yCqzEA==
   dependencies:
     "@ant-design/icons" "^4.2.2"
     axios "^0.21.1"
-    lodash "^4.17.20"
+    lodash "4.17.21"
     nextjs-websocket "^1.0.0"
     react-grid-system "^7.1.1"
     react-scroll "^1.8.1"
