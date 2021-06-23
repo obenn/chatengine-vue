@@ -12,7 +12,7 @@
     "react": "^17.0.1",
     "react-chat-engine": "^1.5.11",
     "react-dom": "^17.0.1",
-    "vue": "^2.6.11",
+    "vue": "^2.6.13",
     "vuera": "^0.2.7"
   },
   "devDependencies": {
